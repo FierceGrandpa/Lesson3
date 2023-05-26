@@ -30,6 +30,11 @@
         android:label="Браузер"
         tools:layout="@layout/fragment_web_view" />
 
+    <fragment
+        android:id="@+id/worker"
+        android:name="ru.mirea.lukashev_ni.mireaproject.MyWorkerFragment"
+        android:label="Worker"
+        tools:layout="@layout/fragment_my_worker" />
 
     <fragment
         android:id="@+id/nav_data"
