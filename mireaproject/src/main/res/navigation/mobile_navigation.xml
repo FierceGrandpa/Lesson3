@@ -42,6 +42,12 @@
         tools:layout="@layout/fragment_microphone" />
 
     <fragment
+        android:id="@+id/net_resource"
+        android:name="ru.mirea.lukashev_ni.mireaproject.NetworkFragment"
+        android:label="@string/net_resource"
+        tools:layout="@layout/fragment_network" />
+
+    <fragment
         android:id="@+id/nav_gallery"
         android:name="ru.mirea.lukashev_ni.mireaproject.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
