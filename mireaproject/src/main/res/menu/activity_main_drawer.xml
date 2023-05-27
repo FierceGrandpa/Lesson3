@@ -9,6 +9,34 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/sensors"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/sensors" />
+        <item
+            android:id="@+id/file_handling"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/file_handling" />
+
+        <item
+            android:id="@+id/microphone"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/microphone" />
+
+        <item
+            android:id="@+id/places"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/places" />
+
+        <item
+            android:id="@+id/net_resource"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/net_resource" />
+
+        <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_gallery" />

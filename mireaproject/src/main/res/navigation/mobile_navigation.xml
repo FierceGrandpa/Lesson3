@@ -12,6 +12,36 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/profile"
+        android:name="ru.mirea.lukashev_ni.mireaproject.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/sensors"
+        android:name="ru.mirea.lukashev_ni.mireaproject.SensorsFragment"
+        android:label="@string/sensors"
+        tools:layout="@layout/fragment_sensors" />
+
+    <fragment
+        android:id="@+id/file_handling"
+        android:name="ru.mirea.lukashev_ni.mireaproject.FileHandlingFragment"
+        android:label="@string/file_handling"
+        tools:layout="@layout/fragment_file_handling" />
+
+    <fragment
+        android:id="@+id/places"
+        android:name="ru.mirea.lukashev_ni.mireaproject.PlacesFragment"
+        android:label="@string/places"
+        tools:layout="@layout/fragment_places" />
+
+    <fragment
+        android:id="@+id/microphone"
+        android:name="ru.mirea.lukashev_ni.mireaproject.MicrophoneFragment"
+        android:label="@string/microphone"
+        tools:layout="@layout/fragment_microphone" />
+
+    <fragment
         android:id="@+id/nav_gallery"
         android:name="ru.mirea.lukashev_ni.mireaproject.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
